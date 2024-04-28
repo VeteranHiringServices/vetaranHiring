@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./group-62.css" />
-    <link rel="stylesheet" href="./newsletter-c-t-a-section.css" />
-    <link rel="stylesheet" href="./mobile.css" />
-    <link rel="stylesheet" href="./mobile.css" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="group-62.css" />
+    <link rel="stylesheet" href="newsletter-c-t-a-section.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap"
@@ -94,7 +94,7 @@
                 Uniting Excellence, Transforming Futures 
               </div>
             </div>
-            <button onclick="redirectToForm(event)" class="actions">
+            <button onclick="redirectToForm1(event)" class="actions">
               <div class="buttonsbutton">
                 <img class="play-circle-icon" alt="" src="playcircle.svg" />
                 <div class="play-circle-icon"></div>
@@ -175,7 +175,7 @@
             </div>
           </div>
           <div class="actions-wrapper">
-            <button class="actions3">
+            <button class="actions3" onclick="redirectToForm1(event)">
               <div class="buttonsbutton9">
                 <img
                   class="play-circle-icon1"
@@ -652,7 +652,7 @@
                     src="placeholder4.svg"
                   />
     
-                  <div class="text-padding3">
+                  <div class="text-padding3" onclick="redirectToForm2()" >
                     <div class="text15">Connect with us</div>
                   </div>
                   <img
@@ -1077,6 +1077,15 @@
   function redirectToForm(event) {
     // Redirect to the specified URL
     window.location.href = "https://forms.gle/HY8QpYVfoEGvZ1dc9";
+    
+    // Prevent default behavior (page refresh)
+    event.preventDefault(); // or return false;
+  }
+</script>
+<script>
+  function redirectToForm1(event) {
+    // Redirect to the specified URL
+    window.location.href = "https://forms.gle/pnHfanmkK7bqWFpT7";
     
     // Prevent default behavior (page refresh)
     event.preventDefault(); // or return false;
