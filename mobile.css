@@ -2012,3 +2012,13 @@
       display: none;
   }
 }
+.text-padding3:hover {
+ 
+  color: #fff; /* Change to desired text color */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+.buttonsbutton9:hover{
+ 
+  color: #fff; /* Change to desired text color */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
