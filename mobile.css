@@ -266,7 +266,7 @@
   debug_commit: 1de1738;
 }
 .hero-header-section {
-  width: 375px;
+  width: 745px;
   background-color: var(--color-darkslategray-100);
   overflow: hidden;
   flex-direction: column;
