@@ -216,7 +216,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0;
-  background-image: url(./public/avatar@3x.png);
+  background-image: url(avatar@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -242,7 +242,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0;
-  background-image: url(./public/avatar1@3x.png);
+  background-image: url(avatar1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -273,7 +273,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-12xs) 0.3px 0;
-  background-image: url(./public/avatar2@3x.png);
+  background-image: url(avatar2@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
