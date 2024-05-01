@@ -342,7 +342,7 @@
   left: -1.5px;
   width: 51px;
   height: 51px;
-  background-image: url(./public/avatar3@3x.png);
+  background-image: url(avatar3@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -364,7 +364,7 @@
   left: 70.5px;
   width: 51px;
   height: 51px;
-  background-image: url(./public/avatar4@3x.png);
+  background-image: url(avatar4@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -392,7 +392,7 @@
   left: 30.5px;
   width: 59px;
   height: 59px;
-  background-image: url(./public/avatar5@3x.png);
+  background-image: url(avatar5@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -429,7 +429,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-12xs) var(--padding-12xs-2) 0;
-  background-image: url(./public/avatar6@3x.png);
+  background-image: url(avatar6@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -454,7 +454,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-12xs) var(--padding-12xs-2) 0;
-  background-image: url(./public/avatar7@3x.png);
+  background-image: url(avatar7@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -485,7 +485,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-12xs) 0.4px 0;
-  background-image: url(./public/avatar8@3x.png);
+  background-image: url(avatar8@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
