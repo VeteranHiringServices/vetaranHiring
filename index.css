@@ -216,7 +216,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0;
-  background-image: url(avatar@3x.png);
+  background-image: url(./public/avatar@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -242,7 +242,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0;
-  background-image: url(avatar1@3x.png);
+  background-image: url(./public/avatar1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -273,7 +273,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-12xs) 0.3px 0;
-  background-image: url(avatar2@3x.png);
+  background-image: url(./public/avatar2@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -503,7 +503,7 @@
   align-self: stretch;
   position: relative;
   font-family: var(--text-md-regular);
-  text-align: left;
+  text-align: justify;
 }
 .canbenamedaccordingtotheirrole7 {
   font-size: var(--text-xl-regular-size);
@@ -593,7 +593,7 @@
   align-self: stretch;
   position: relative;
   font-family: var(--text-md-regular);
-  text-align: left;
+  text-align: justify;
 }
 .text1 {
   font-size: var(--text-xl-regular-size);
@@ -683,7 +683,7 @@
   align-self: stretch;
   position: relative;
   font-family: var(--text-md-regular);
-  text-align: left;
+  text-align: justify;
 }
 .text3 {
   font-size: var(--text-xl-regular-size);
@@ -773,7 +773,7 @@
   align-self: stretch;
   position: relative;
   font-family: var(--text-md-regular);
-  text-align: left;
+  text-align: justify;
 }
 .text5 {
   font-size: var(--text-xl-regular-size);
@@ -1084,11 +1084,12 @@
 .supporting-text8 {
   align-self: stretch;
   position: relative;
+  word-spacing:-2px;
   font-size: var(--text-md-regular-size);
   line-height: 24px;
   font-family: var(--text-md-regular);
   color: var(--gray-600);
-  text-align: left;
+  text-align: justify;
 }
 .name-and-supporting-text {
   align-self: stretch;
@@ -1191,11 +1192,12 @@
 .supporting-text9 {
   align-self: stretch;
   position: relative;
+  word-spacing:-2px;
   font-size: var(--text-md-regular-size);
   line-height: 24px;
   font-family: var(--text-md-regular);
   color: var(--gray-600);
-  text-align: left;
+  text-align: justify;
 }
 .name-and-supporting-text1 {
   align-self: stretch;
@@ -1588,7 +1590,7 @@
   line-height: 24px;
   font-family: var(--text-md-regular);
   color: var(--gray-600);
-  text-align: left;
+  text-align: justify;
 }
 .text-and-supporting-text4 {
   flex: 1;
@@ -2550,6 +2552,24 @@
     box-sizing: border-box;
     max-width: 100%;
     margin-left: 0px;
+}
+.image-icon1 {
+  align-self: stretch;
+  height: 225px;
+  position: relative;
+  max-width: 56%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-icon2 {
+  align-self: stretch;
+  height: 225px;
+  position: relative;
+  max-width: 56%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
 }
 .supporting-text2 {
   font-size: 19px;
