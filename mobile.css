@@ -1577,6 +1577,7 @@
 .content24 {
   flex-direction: row;
   flex-wrap: wrap;
+  
   align-items: flex-start;
   gap: var(--gap-5xs);
 }
@@ -1793,7 +1794,8 @@
 .container7 {
   align-items: flex-start;
   padding: 0 var(--padding-base);
-  text-align: left;
+  text-align: justify;
+  word-spacing:-2px;
   font-size: var(--text-lg-medium-size);
 }
 .faq-section {
