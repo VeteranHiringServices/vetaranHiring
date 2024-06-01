@@ -93,6 +93,8 @@
 }
 .veteran5 {
   margin: 0;
+  margin-top: -13%;
+
 }
 .veteran4 {
   position: relative;
@@ -2045,6 +2047,12 @@
 .dropdown-header-navigation, .header {
   align-self: stretch !important;
   display: flex !important;
-  height: 122%;
+  height: 100%;
   max-width: 100% !important;
+}
+
+.headingAdjust{
+  margin-left: 20%;
+ 
+
 }

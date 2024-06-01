@@ -33,7 +33,9 @@
 .veteran-parent {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  margin-left: -1%;
+  margin-bottom: 1%;
   justify-content: flex-start;
 }
 .desktop-inner {
@@ -2612,9 +2614,12 @@
 }
 
 .tricolor-icon-and-text-1 {
-  width: 121px;
-  height: 74px;
-  position: relative;
+  width: 128px;
+  height: 77px;
+  position: absolute;
+  top: 0%;
+  left: -14px;
+  /* align-items: flex-start; */
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
