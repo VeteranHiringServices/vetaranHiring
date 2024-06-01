@@ -2026,11 +2026,11 @@
 }
 .tricolor-icon-and-text-11 {
   width: 171px;
-  height: 70px;
+  height: 65px;
   position: absolute;
   margin: 0 !important;
-  top: -4px;
-  left: 0;
+  top: 0px;
+  left: -13px;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
