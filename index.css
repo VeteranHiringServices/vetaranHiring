@@ -40,7 +40,7 @@
   width: 366px;
   flex-direction: row;
   justify-content: center;
-  padding: 0 var(--padding-xl) 11.9px;
+  /* padding: 0 var(--padding-xl) 11.9px; */
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -2609,4 +2609,13 @@
   margin-left: -7%;
 }
 
+}
+
+.tricolor-icon-and-text-1 {
+  width: 182px;
+  height: 74px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
 }

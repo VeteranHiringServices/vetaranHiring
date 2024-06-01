@@ -2024,3 +2024,27 @@
   
   cursor: pointer; /* Show pointer cursor on hover */
 }
+.tricolor-icon-and-text-11 {
+  width: 171px;
+  height: 70px;
+  position: absolute;
+  margin: 0 !important;
+  top: -4px;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.header {
+  flex: 1 !important;
+  background-color: var(--base-white) !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.dropdown-header-navigation, .header {
+  align-self: stretch !important;
+  display: flex !important;
+  height: 122%;
+  max-width: 100% !important;
+}
