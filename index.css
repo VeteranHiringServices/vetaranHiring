@@ -54,7 +54,7 @@
 .heading {
   margin: 0;
   align-self: stretch;
-  font-size: var(--display-xl-semibold-size);
+  font-size: 54px;
   letter-spacing: -0.02em;
   line-height: 72px;
   font-weight: 600;
